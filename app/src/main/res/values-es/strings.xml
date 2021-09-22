@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FH4 Calculator</string>
+    <string name="front_springs">Muelles delanteros</string>
+    <string name="rear_springs">Muelles traseros</string>
+    <string name="front_bars">Barras delanteras</string>
+    <string name="rear_bars">Barras traseras</string>
+    <string name="front_damping">Rebote delantero</string>
+    <string name="rear_damping">Rebote trasero</string>
+
+
+    <string name="asphalt">Asfalto</string>
+    <string name="rally">Rally</string>
+    <string name="toast_fill_fields">DEBES RELLENAR TODOS LOS CAMPOS</string>
+    <string name="toast_select_option">DEBES SELECCIONAR UNA OPCION</string>
+
+    <string name="select">Selecciona el tipo de ajuste</string>
+    <string name="springs_max_value">Muelles delanteros valor MAX</string>
+    <string name="springs_min_value">Muelles delanteros valor MIN</string>
+    <string name="front_weight">Peso delantero del coche</string>
+    <string name="button_calculate">Calcular parámetros</string>
+
+
+    <string name="rally_activity_text">Introduce los valores de rebote</string>
+    <string name="damping_max_value">Rebote valor MAX</string>
+    <string name="damping_min_value">Rebote valir Min</string>
+
+</resources>

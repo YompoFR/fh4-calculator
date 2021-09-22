@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FH4 Calculator</string>
+    <string name="front_springs">Front Sprigns</string>
+    <string name="rear_springs">Rear Springs</string>
+    <string name="front_bars">Front Bars</string>
+    <string name="rear_bars">Rear Bars</string>
+    <string name="front_damping">Front Damping</string>
+    <string name="rear_damping">Rear Damping</string>
+
+    <string name="asphalt">Asphalt</string>
+    <string name="rally">Rally</string>
+    <string name="toast_fill_fields">YOU MUST TO FILL THE FIELDS</string>
+    <string name="toast_select_option">YOU MUST TO CHOOSE AN OPTION</string>
+
+    <string name="select">Select the type of setting</string>
+    <string name="springs_max_value">Springs MAX value</string>
+    <string name="springs_min_value">Springs MIN value</string>
+    <string name="front_weight">Front weight</string>
+    <string name="button_calculate">Calculate</string>
+
+    <string name="rally_activity_text">Fill damping values</string>
+    <string name="damping_max_value">Damping MAX value</string>
+    <string name="damping_min_value">Damping MIN value</string>
+
+</resources>

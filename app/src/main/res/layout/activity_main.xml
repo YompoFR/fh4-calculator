@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="@string/select" />
+        
+        <RadioGroup
+            android:id="@+id/rdgOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdbAsphalt"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:background="@color/radio_button_default"
+                android:text="@string/asphalt" />
+
+            <RadioButton
+                android:id="@+id/rdbRally"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:button="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:background="@color/radio_button_default"
+                android:text="@string/rally" />
+
+        </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtSpringsMaxValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:hint="@string/springs_max_value"
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtSpringsMinValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="@string/springs_min_value"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtFrontWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="@string/front_weight"
+            android:maxLength="2"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="50dp"
+            android:textAlignment="center"
+            android:backgroundTint="@color/radio_button_default"
+            android:text="@string/button_calculate" />
+
+    </LinearLayout>
+</LinearLayout>
