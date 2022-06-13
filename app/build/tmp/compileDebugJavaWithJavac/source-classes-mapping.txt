@@ -1,0 +1,2 @@
+com/example/fh4calculator/BuildConfig.java
+ com.example.fh4calculator.BuildConfig
