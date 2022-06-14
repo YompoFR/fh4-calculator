@@ -4,12 +4,17 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.core.view.get
+import androidx.core.view.isVisible
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.edtDampingMaxValue
+import kotlinx.android.synthetic.main.activity_main.edtDampingMinValue
+import kotlinx.android.synthetic.main.activity_rally.*
 import java.lang.NumberFormatException
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +27,9 @@ class MainActivity : AppCompatActivity() {
     var springMaxValue = 0.0
     var springMinValue = 0.0
     var frontWeight = 0.0
+
+    var dampingMaxValue = 0.0
+    var dampingMinValue = 0.0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,6 +62,14 @@ class MainActivity : AppCompatActivity() {
                 radioButton.setBackgroundColor(Color.CYAN)
                 radioButton.setTextColor(Color.BLACK)
                 previousId = radioGroup.checkedRadioButtonId
+
+                if(selectedButton == 1){ // Rally button
+                    edtDampingMaxValue.visibility = View.VISIBLE
+                    edtDampingMaxValue.visibility = View.VISIBLE
+                } else {
+                    edtDampingMaxValue.visibility = View.INVISIBLE
+                    edtDampingMaxValue.visibility = View.INVISIBLE
+                }
             }
         }
 
@@ -76,6 +92,10 @@ class MainActivity : AppCompatActivity() {
         springMaxValue = edtSpringsMaxValue.text.toString().toDouble()
         springMinValue = edtSpringsMinValue.text.toString().toDouble()
         frontWeight = edtFrontWeight.text.toString().toDouble()
+        if (edtDampingMaxValue.isVisible && edtDampingMinValue.isVisible){
+            dampingMaxValue = edtDampingMaxValue.text.toString().toDouble()
+            dampingMinValue = edtDampingMinValue.text.toString().toDouble()
+        }
 
         sendValues()
     }
@@ -83,19 +103,14 @@ class MainActivity : AppCompatActivity() {
     private fun sendValues() {
         if (springMaxValue != 0.0 && springMinValue != 0.0 && frontWeight != 0.0) {
             var intent = Intent()
-            when(selectedButton){
-                0 -> {
-                    intent = Intent(this, Results::class.java)
-                }
-
-                1 -> {
-                    intent = Intent(this, Rally::class.java)
-                }
-            }
+            intent = Intent(this, Results::class.java)
             intent.putExtra("button", selectedButton)
             intent.putExtra("springsMax", springMaxValue)
             intent.putExtra("springsMin", springMinValue)
+            intent.putExtra("dampingMax", dampingMaxValue)
+            intent.putExtra("dampingMin", dampingMinValue)
             intent.putExtra("frontWeight", frontWeight)
+
             startActivity(intent)
         }
     }
