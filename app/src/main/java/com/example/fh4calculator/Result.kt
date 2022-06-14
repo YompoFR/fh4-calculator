@@ -13,7 +13,6 @@ class Result : AppCompatActivity() {
 
     var barsMaxValue = 65.0
     var barsMinValue = 1.0
-
     var dampingMaxValue = 0.0
     var dampingMinValue = 0.0
 
