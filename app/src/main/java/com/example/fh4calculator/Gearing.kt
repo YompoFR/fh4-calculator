@@ -11,22 +11,27 @@ class Gearing : AppCompatActivity() {
     var aspectRatio = 50.0 //dont know what it is
     var wheelDiameter = 15.0 //in inches
     var calulatedDiameter = 0.0
+    var calculatedGearRatio = 0.0
 
-    var maxRpm = 0
+    var maxRpm = 8000
+    var gearRatio = 3.23
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gearing)
 
         calulatedDiameter = formulaCalculatedDiameter()
-        tvCalculatedDiameterText.text = calulatedDiameter.toString()
+        calculatedGearRatio = formulaCalculateGearRatio()
+
+        tvCalculatedDiameterText.text = calculatedGearRatio.toString()
+
     }
 
     fun formulaCalculatedDiameter(): Double {
         return (tireWidth / 25.4) * (aspectRatio / 100) * 2  + wheelDiameter
     }
 
-    fun formulaCalculateGearRatio(){
-
+    fun formulaCalculateGearRatio(): Double {
+        return (maxRpm * calulatedDiameter) / (finalDriveRatio * 3.23 * 336)
     }
 }
