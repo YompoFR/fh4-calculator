@@ -7,11 +7,12 @@ import kotlinx.android.synthetic.main.activity_gearing.*
 class Gearing : AppCompatActivity() {
 
     var finalDriveRatio = 4.71
-    var tireWidth = 225 //in mm
-    var aspectRatio = 50 //dont know what it is
-    var wheelDiameter = 15 //in inches
+    var tireWidth = 225.0 //in mm
+    var aspectRatio = 50.0 //dont know what it is
+    var wheelDiameter = 15.0 //in inches
     var calulatedDiameter = 0.0
 
+    var maxRpm = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +23,10 @@ class Gearing : AppCompatActivity() {
     }
 
     fun formulaCalculatedDiameter(): Double {
-        return (tireWidth *25.4)*(aspectRatio /100)*2+ wheelDiameter
+        return (tireWidth / 25.4) * (aspectRatio / 100) * 2  + wheelDiameter
+    }
+
+    fun formulaCalculateGearRatio(){
+
     }
 }
