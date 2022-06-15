@@ -15,6 +15,9 @@
     <string name="gearing">Establecer Caja de cambios</string>
     <string name="suspension">Establecer Suspensión</string>
 
+    <string name="max_rpm">Max RPM</string>
+    <string name="number_of_gears">NumberOfGears</string>
+
     <string name="toast_fill_fields">DEBES RELLENAR TODOS LOS CAMPOS</string>
     <string name="toast_select_option">DEBES SELECCIONAR UNA OPCION</string>
 
@@ -25,7 +28,7 @@
     <string name="button_calculate">Calcular parámetros</string>
 
 
-    <string name="rally_activity_text">Introduce los valores de rebote</string>
+    <string name="gearing_activity_text">Fill Values</string>
     <string name="damping_max_value">Rebote valor MAX</string>
     <string name="damping_min_value">Rebote valir Min</string>
 

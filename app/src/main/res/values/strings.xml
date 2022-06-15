@@ -13,6 +13,9 @@
     <string name="gearing">Set Gearing</string>
     <string name="suspension">Set Suspension</string>
 
+    <string name="max_rpm">Max RPM</string>
+    <string name="number_of_gears">NumberOfGears</string>
+
     <string name="toast_fill_fields">YOU MUST TO FILL THE FIELDS</string>
     <string name="toast_select_option">YOU MUST TO CHOOSE AN OPTION</string>
 
@@ -22,7 +25,7 @@
     <string name="front_weight">Front weight</string>
     <string name="button_calculate">Calculate</string>
 
-    <string name="rally_activity_text">Fill damping values</string>
+    <string name="gearing_activity_text">Fill Values</string>
     <string name="damping_max_value">Damping MAX value</string>
     <string name="damping_min_value">Damping MIN value</string>
 

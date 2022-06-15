@@ -8,13 +8,13 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tvRally"
+        android:id="@+id/tvGearing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_margin="10dp"
         android:textAlignment="center"
-        android:text="@string/rally_activity_text" />
+        android:text="@string/gearing_activity_text" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,23 +22,23 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/edtDampingMaxValue"
+            android:id="@+id/edtMaxRpm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:hint="@string/damping_max_value"
-            android:inputType="numberDecimal"
+            android:hint="@string/max_rpm"
+            android:inputType="number"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/edtDampingMinValue"
+            android:id="@+id/edtNumberOfGears"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:inputType="numberDecimal"
-            android:hint="@string/damping_min_value"
+            android:hint="@string/number_of_gears"
             android:textAlignment="center" />
 
         <Button
@@ -53,12 +53,52 @@
             android:text="@string/button_calculate" />
 
         <TextView
-            android:id="@+id/tvCalculatedDiameterText"
+            android:id="@+id/tvGear1"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/front_springs" />
+            android:text="Gear 1" />
+
+        <TextView
+            android:id="@+id/tvGear2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gear 2" />
+
+        <TextView
+            android:id="@+id/tvGear3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gear 3" />
+
+        <TextView
+            android:id="@+id/tvGear4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gear 4" />
+
+        <TextView
+            android:id="@+id/tvGear5"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gear 5" />
+
+        <TextView
+            android:id="@+id/tvGear6"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gear 6" />
 
     </LinearLayout>
 </LinearLayout>
