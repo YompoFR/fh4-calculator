@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FH4Calculator" >
+        <activity android:name="com.example.fh4calculator.Suspension" />
         <activity android:name="com.example.fh4calculator.Gearing" />
         <activity android:name="com.example.fh4calculator.Rally" />
         <activity android:name="com.example.fh4calculator.Results" />

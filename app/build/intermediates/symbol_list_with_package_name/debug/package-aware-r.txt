@@ -1593,6 +1593,8 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rdGearing
+id rdSuspension
 id rdbAsphalt
 id rdbRally
 id rdgOption
@@ -1767,6 +1769,7 @@ layout activity_calculates
 layout activity_gearing
 layout activity_main
 layout activity_results
+layout activity_suspension
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1886,6 +1889,7 @@ string front_bars
 string front_damping
 string front_springs
 string front_weight
+string gearing
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string mtrl_badge_numberless_content_description
@@ -1937,6 +1941,7 @@ string select
 string springs_max_value
 string springs_min_value
 string status_bar_notification_info_overflow
+string suspension
 string toast_fill_fields
 string toast_select_option
 style AlertDialog_AppCompat

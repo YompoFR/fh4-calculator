@@ -9,6 +9,10 @@
 
     <string name="asphalt">Asphalt</string>
     <string name="rally">Rally</string>
+
+    <string name="gearing">Set Gearing</string>
+    <string name="suspension">Set Suspension</string>
+
     <string name="toast_fill_fields">YOU MUST TO FILL THE FIELDS</string>
     <string name="toast_select_option">YOU MUST TO CHOOSE AN OPTION</string>
 

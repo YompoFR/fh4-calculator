@@ -11,6 +11,10 @@
 
     <string name="asphalt">Asfalto</string>
     <string name="rally">Rally</string>
+
+    <string name="gearing">Establecer Caja de cambios</string>
+    <string name="suspension">Establecer Suspensión</string>
+
     <string name="toast_fill_fields">DEBES RELLENAR TODOS LOS CAMPOS</string>
     <string name="toast_select_option">DEBES SELECCIONAR UNA OPCION</string>
 
