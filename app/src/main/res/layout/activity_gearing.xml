@@ -52,5 +52,13 @@
             android:backgroundTint="@color/radio_button_default"
             android:text="@string/button_calculate" />
 
+        <TextView
+            android:id="@+id/tvCalculatedDiameterText"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/front_springs" />
+
     </LinearLayout>
 </LinearLayout>

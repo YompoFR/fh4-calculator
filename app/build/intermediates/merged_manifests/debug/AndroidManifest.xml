@@ -19,10 +19,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FH4Calculator" >
-        <activity android:name="com.example.fh4calculator.Calculates" />
-        <activity android:name="com.example.fh4calculator.Result" />
+        <activity android:name="com.example.fh4calculator.Gearing" />
         <activity android:name="com.example.fh4calculator.Rally" />
-        <activity android:name="com.example.fh4calculator.Asphalt" />
+        <activity android:name="com.example.fh4calculator.Results" />
         <activity android:name="com.example.fh4calculator.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

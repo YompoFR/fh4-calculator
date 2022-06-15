@@ -1678,6 +1678,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tvCalculatedDiameterText
 id tvFrontBarsText
 id tvFrontBarsValue
 id tvFrontDampingText
@@ -1763,9 +1764,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_calculates
+layout activity_gearing
 layout activity_main
-layout activity_rally
-layout activity_result
+layout activity_results
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

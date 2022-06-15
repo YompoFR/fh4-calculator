@@ -14,7 +14,6 @@ import androidx.core.view.isVisible
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.edtDampingMaxValue
 import kotlinx.android.synthetic.main.activity_main.edtDampingMinValue
-import kotlinx.android.synthetic.main.activity_rally.*
 import java.lang.NumberFormatException
 
 class MainActivity : AppCompatActivity() {

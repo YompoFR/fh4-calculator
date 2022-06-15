@@ -28,10 +28,6 @@
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rally.xml.flat",
-        "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\layout\\activity_rally.xml"
-    },
-    {
         "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_fh4_round.png.flat",
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\mipmap-mdpi\\ic_fh4_round.png"
     },
@@ -80,10 +76,6 @@
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_result.xml.flat",
-        "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\layout\\activity_result.xml"
-    },
-    {
         "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_fh4.png.flat",
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fh4.png"
     },
@@ -124,6 +116,10 @@
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_fh4.xml"
     },
     {
+        "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_results.xml.flat",
+        "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\layout\\activity_results.xml"
+    },
+    {
         "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_calculates.xml.flat",
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\layout\\activity_calculates.xml"
     },
@@ -142,5 +138,9 @@
     {
         "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_fh4_round.png.flat",
         "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fh4_round.png"
+    },
+    {
+        "merged": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gearing.xml.flat",
+        "source": "C:\\Users\\IVAN\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\src\\main\\res\\layout\\activity_gearing.xml"
     }
 ]
