@@ -3,6 +3,7 @@ package com.example.fh4calculator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_gearing.*
+import java.lang.NumberFormatException
 import kotlin.math.max
 
 class Gearing : AppCompatActivity() {
@@ -14,28 +15,35 @@ class Gearing : AppCompatActivity() {
     var calulatedDiameter = 0.0
     var calculatedGearRatio = 0.0
 
-    var maxRpm = 7000
+    var maxRpm = 0
     var gearRatio = 3.23
-    var maxSpeed = 142.2 // in miles per hour
+    var maxSpeed = 0 // in miles per hour
     var maxSpeedKmh = maxSpeed * 1.6
 
     var numberOfGears: Int = 5
 
     var speedOfGear: Double = maxSpeedKmh / numberOfGears
     var listSpeedPerGear: MutableList<Int> = ArrayList(0)
-    var numnberOfGears = 5
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gearing)
 
+        btnCalculateGearing.setOnClickListener(){
+            try {
+                maxRpm = edtMaxRpm.text.toString().toInt()
+                numberOfGears = edtNumberOfGears.text.toString().toInt()
+            } catch (e: NumberFormatException){
+
+            }
+        }
+
         calulatedDiameter = formulaCalculatedDiameter()
         calculatedGearRatio = formulaCalculateGearRatio()
 
         assingSpeedPerGear()
 
-        tvCalculatedDiameterText.text = listSpeedPerGear[1].toString()
 
     }
 

@@ -42,7 +42,7 @@
             android:textAlignment="center" />
 
         <Button
-            android:id="@+id/btnCalculateRally"
+            android:id="@+id/btnCalculateGearing"
             android:button="@null"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
