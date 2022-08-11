@@ -1498,8 +1498,10 @@ id dropdown_menu
 id edit_query
 id edtDampingMaxValue
 id edtDampingMinValue
+id edtFinalDriveRatio
 id edtFrontWeight
 id edtMaxRpm
+id edtMaxSpeedRatio
 id edtNumberOfGears
 id edtSpringsMaxValue
 id edtSpringsMinValue
@@ -1595,7 +1597,6 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id rdGearing
 id rdSuspension
 id rdbAsphalt
 id rdbRally

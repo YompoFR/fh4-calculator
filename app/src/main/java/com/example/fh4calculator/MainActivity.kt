@@ -18,9 +18,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        /*
         rdGearing.setOnClickListener(){
             intent = Intent(this, Gearing::class.java)
             startActivity(intent)
         }
+         */
     }
 }

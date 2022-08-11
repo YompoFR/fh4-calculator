@@ -37,8 +37,28 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             android:hint="@string/number_of_gears"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtFinalDriveRatio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:hint="Final Drive Ratio"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtMaxSpeedRatio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Max Speed Ratio"
             android:textAlignment="center" />
 
         <Button
