@@ -9,7 +9,6 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.core.view.isVisible
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_suspension.*
 import java.lang.NumberFormatException
 
@@ -24,8 +23,8 @@ class Suspension : AppCompatActivity() {
     var springMinValue = 0.0
     var frontWeight = 0.0
 
-    var dampingMaxValue = 0.0
-    var dampingMinValue = 0.0
+    var reboundMaxValue = 20.0
+    var reboundMinValue = 3.0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,11 +58,11 @@ class Suspension : AppCompatActivity() {
                 previousId = radioGroup.checkedRadioButtonId
 
                 if(selectedButton == 1){ // Rally button
-                    edtDampingMaxValue.visibility = View.VISIBLE
-                    edtDampingMaxValue.visibility = View.VISIBLE
+                    edtReboundMaxValue.visibility = View.VISIBLE
+                    edtReboundMinValue.visibility = View.VISIBLE
                 } else {
-                    edtDampingMaxValue.visibility = View.INVISIBLE
-                    edtDampingMaxValue.visibility = View.INVISIBLE
+                    edtReboundMaxValue.visibility = View.INVISIBLE
+                    edtReboundMinValue.visibility = View.INVISIBLE
                 }
             }
         }
@@ -87,9 +86,9 @@ class Suspension : AppCompatActivity() {
         springMaxValue = edtSpringsMaxValue.text.toString().toDouble()
         springMinValue = edtSpringsMinValue.text.toString().toDouble()
         frontWeight = edtFrontWeight.text.toString().toDouble()
-        if (edtDampingMaxValue.isVisible && edtDampingMinValue.isVisible){
-            dampingMaxValue = edtDampingMaxValue.text.toString().toDouble()
-            dampingMinValue = edtDampingMinValue.text.toString().toDouble()
+        if (edtReboundMaxValue.isVisible && edtReboundMinValue.isVisible){
+            reboundMaxValue = edtReboundMaxValue.text.toString().toDouble()
+            reboundMinValue = edtReboundMinValue.text.toString().toDouble()
         }
 
         sendValues()
@@ -102,8 +101,8 @@ class Suspension : AppCompatActivity() {
             intent.putExtra("button", selectedButton)
             intent.putExtra("springsMax", springMaxValue)
             intent.putExtra("springsMin", springMinValue)
-            intent.putExtra("dampingMax", dampingMaxValue)
-            intent.putExtra("dampingMin", dampingMinValue)
+            intent.putExtra("reboundMax", reboundMaxValue)
+            intent.putExtra("reboundMin", reboundMinValue)
             intent.putExtra("frontWeight", frontWeight)
 
             startActivity(intent)

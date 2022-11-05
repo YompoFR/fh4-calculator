@@ -52,7 +52,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="629dp"
         android:orientation="vertical">
 
         <EditText
@@ -71,8 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:inputType="numberDecimal"
             android:hint="@string/springs_min_value"
+            android:inputType="numberDecimal"
             android:textAlignment="center" />
 
         <EditText
@@ -81,45 +81,45 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:inputType="number"
             android:hint="@string/front_weight"
+            android:inputType="number"
             android:maxLength="2"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/edtDampingMaxValue"
+            android:id="@+id/edtReboundMaxValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
+            android:hint="@string/rebound_max_value"
             android:inputType="number"
-            android:hint="@string/front_weight"
             android:maxLength="2"
             android:textAlignment="center"
-            android:visibility="invisible"/>
+            android:visibility="invisible" />
 
         <EditText
-            android:id="@+id/edtDampingMinValue"
+            android:id="@+id/edtReboundMinValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
+            android:hint="@string/rebound_min_value"
             android:inputType="number"
-            android:hint="@string/front_weight"
             android:maxLength="2"
             android:textAlignment="center"
-            android:visibility="invisible"/>
+            android:visibility="invisible" />
 
         <Button
             android:id="@+id/btnCalculate"
-            android:button="@null"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_margin="50dp"
-            android:textAlignment="center"
+            android:layout_weight="1"
             android:backgroundTint="@color/radio_button_default"
-            android:text="@string/button_calculate" />
+            android:button="@null"
+            android:text="@string/button_calculate"
+            android:textAlignment="center" />
 
     </LinearLayout>
 </LinearLayout>

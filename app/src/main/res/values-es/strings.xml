@@ -5,8 +5,6 @@
     <string name="rear_springs">Muelles traseros</string>
     <string name="front_bars">Barras delanteras</string>
     <string name="rear_bars">Barras traseras</string>
-    <string name="front_damping">Rebote delantero</string>
-    <string name="rear_damping">Rebote trasero</string>
 
 
     <string name="asphalt">Asfalto</string>
@@ -28,8 +26,12 @@
     <string name="button_calculate">Calcular parámetros</string>
 
 
-    <string name="gearing_activity_text">Fill Values</string>
-    <string name="damping_max_value">Rebote valor MAX</string>
-    <string name="damping_min_value">Rebote valir Min</string>
+    <string name="gearing_activity_text">Rellenar valores</string>
+    <string name="rebound_max_value">Expansión valor MAX</string>
+    <string name="rebound_min_value">Expansión valor MIN</string>
+    <string name="front_rebound">Expansión delantera</string>
+    <string name="rear_rebound">Expansión trasera</string>
+    <string name="front_bump">Rebote delantero</string>
+    <string name="rear_bump">Rebote trasero</string>
 
 </resources>

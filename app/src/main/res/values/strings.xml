@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">FH4 Calculator</string>
-    <string name="front_springs">Front Sprigns</string>
+    <string name="front_springs">Front Springs</string>
     <string name="rear_springs">Rear Springs</string>
     <string name="front_bars">Front Bars</string>
     <string name="rear_bars">Rear Bars</string>
-    <string name="front_damping">Front Damping</string>
-    <string name="rear_damping">Rear Damping</string>
+    <string name="front_rebound">Front Rebound</string>
+    <string name="rear_rebound">Rear Rebound</string>
+    <string name="front_bump">Front Bump</string>
+    <string name="rear_bump">Rear Bump</string>
 
     <string name="asphalt">Asphalt</string>
     <string name="rally">Rally</string>
@@ -26,7 +28,7 @@
     <string name="button_calculate">Calculate</string>
 
     <string name="gearing_activity_text">Fill Values</string>
-    <string name="damping_max_value">Damping MAX value</string>
-    <string name="damping_min_value">Damping MIN value</string>
+    <string name="rebound_max_value">Rebound MAX value</string>
+    <string name="rebound_min_value">Rebound MIN value</string>
 
 </resources>

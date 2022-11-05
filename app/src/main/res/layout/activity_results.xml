@@ -16,6 +16,22 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/tvFrontBarsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/front_bars" />
+
+        <TextView
+            android:id="@+id/tvRearBarsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/rear_bars" />
+
+        <TextView
             android:id="@+id/tvFrontSpringsText"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
@@ -32,36 +48,36 @@
             android:text="@string/rear_springs" />
 
         <TextView
-            android:id="@+id/tvFrontBarsText"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/front_bars" />
-
-        <TextView
-            android:id="@+id/tvRearBarsText"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/rear_bars" />
-
-        <TextView
             android:id="@+id/tvFrontDampingText"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/front_damping" />
+            android:text="@string/front_rebound" />
 
         <TextView
             android:id="@+id/tvRearDampingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="5dp"
+            android:text="@string/rear_rebound" />
+
+        <TextView
+            android:id="@+id/tvFrontBumpText"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rear_damping" />
+            android:text="@string/front_bump" />
+
+        <TextView
+            android:id="@+id/tvRearBumpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/rear_bump" />
 
     </LinearLayout>
 
@@ -71,6 +87,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFrontBarsValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/front_bars" />
+
+        <TextView
+            android:id="@+id/tvRearBarsValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/rear_bars" />
 
         <TextView
             android:id="@+id/tvFrontSpringsValue"
@@ -87,32 +117,32 @@
             android:text="@string/rear_springs" />
 
         <TextView
-            android:id="@+id/tvFrontBarsValue"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/front_bars" />
-
-        <TextView
-            android:id="@+id/tvRearBarsValue"
-            android:layout_marginTop="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/rear_bars" />
-
-        <TextView
             android:id="@+id/tvFrontDampingValue"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/front_damping" />
+            android:text="@string/front_rebound" />
 
         <TextView
             android:id="@+id/tvRearDampingValue"
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rear_damping" />
+            android:text="@string/rear_rebound" />
+
+        <TextView
+            android:id="@+id/tvFrontBumpValue"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/front_bump" />
+
+        <TextView
+            android:id="@+id/tvRearBumpValue"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/front_bump" />
 
     </LinearLayout>
 
