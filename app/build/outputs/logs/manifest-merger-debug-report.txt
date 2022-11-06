@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\fa164c6580b1bd433042398a0ca1a149\jetified-core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\5d36c944afc7525553082ec1c0775cf4\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\772e55e8695d68f996b73c379b6b33bb\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -32,25 +32,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ivan\.gradle\cac
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\aad614d97ae7fbea1f0f8cb617937cc2\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\dc76fd0795a9297accd6592943790706\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\4b9f6a902f7ab0a6f5bf355e3954413c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\5d36c944afc7525553082ec1c0775cf4\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\5d36c944afc7525553082ec1c0775cf4\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\fcb11f5e26f0e2154d3fee9403037621\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -62,51 +62,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Iv
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\ae1c2b667e56fe1160907ff4132ae6da\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:9:9-49
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:9:9-49
 	android:icon
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:11:9-51
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:11:9-51
 activity#com.example.fh4calculator.Suspension
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:12:9-57
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:12:9-57
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:12:19-45
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:12:19-45
 activity#com.example.fh4calculator.Gearing
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:13:9-45
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:13:9-45
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:13:19-42
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:13:19-42
 activity#com.example.fh4calculator.Rally
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:14:9-43
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:14:9-43
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:14:19-40
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:14:19-40
 activity#com.example.fh4calculator.Results
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:15:9-45
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:15:9-45
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:15:19-42
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:15:19-42
 activity#com.example.fh4calculator.MainActivity
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\fa164c6580b1bd433042398a0ca1a149\jetified-core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\fa164c6580b1bd433042398a0ca1a149\jetified-core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\5d36c944afc7525553082ec1c0775cf4\material-1.1.0\AndroidManifest.xml:20:5-44
@@ -163,13 +163,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ivan\.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\dc76fd0795a9297accd6592943790706\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\4b9f6a902f7ab0a6f5bf355e3954413c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ivan\.gradle\caches\transforms-2\files-2.1\4b9f6a902f7ab0a6f5bf355e3954413c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Ivan\StudioProjects\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ivan\Documents\MEGAsync\Proyecto\fh4-calculator\app\src\main\AndroidManifest.xml

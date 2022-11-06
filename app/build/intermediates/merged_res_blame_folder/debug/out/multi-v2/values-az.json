@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Ivan\\StudioProjects\\fh4-calculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "C:\\Users\\Ivan\\Documents\\MEGAsync\\Proyecto\\fh4-calculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ivan\\.gradle\\caches\\transforms-2\\files-2.1\\772e55e8695d68f996b73c379b6b33bb\\appcompat-1.1.0\\res\\values-az\\values-az.xml",

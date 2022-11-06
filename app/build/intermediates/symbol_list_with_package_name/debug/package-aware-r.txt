@@ -1781,6 +1781,7 @@ layout activity_gearing
 layout activity_main
 layout activity_results
 layout activity_suspension
+layout activity_suspension_test
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
